@@ -1,2 +1,2 @@
 # pciutils-snap
-lxd:x:999:username
+A snap for PCI Utilities package
