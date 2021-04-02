@@ -1,0 +1,23 @@
+name: pciutils-snap
+base: core20
+version: '0.1'
+summary: A snap for PCI Utilities package
+description: |
+     A snap for PCI Utilities package
+
+grade: devel
+confinement: devmode
+
+apps:
+  lspci:
+     command: usr/bin/lspci
+  setpci:
+     command: usr/bin/setpci
+  update-pciids:
+     command: usr/sbin/update-pciids
+
+parts:
+  pciutils:
+    plugin: nil
+    stage-packages:
+      - pciutils
