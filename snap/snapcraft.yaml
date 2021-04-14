@@ -1,6 +1,6 @@
 name: pciutils-snap
 base: core20
-version: '0.1'
+version: '0.2'
 summary: A snap for PCI Utilities package
 description: |
      A snap for PCI Utilities package
